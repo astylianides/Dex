@@ -178,7 +178,7 @@ header.masthead .header-content h1 {
 
 header.masthead .device-container {
   max-width: 325px;
-  margin-right: auto;
+  margin-right: 50px;
   margin-left: auto;
 }
 
@@ -201,7 +201,7 @@ header.masthead .device-container .screen img {
     font-size: 50px;
   }
   header.masthead .device-container {
-    max-width: 325px;
+    max-width: 25px;
   }
 }
 
@@ -255,7 +255,7 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -402,12 +402,36 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: url("../img/logo-transparent.png"), #283271;
-  background: url("../img/logo-transparent.png"), linear-gradient(to left, #283271, #3D5BA9);
+  background: url("../img/NEW PATTERN.svg"), #283271;
+  background: url("../img/NEW PATTERN.svg"), linear-gradient(to left, #283271, #3D5BA9);
+}
+
+.leftGeom {
+  background: url("../img/Pattern left.svg");
+}
+
+.rightGeom {
+  background: url("../img/Pattern right.svg");
 }
 
 .darkBack {
    color: white;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.jackieNeedsSpaceL {
+  padding-left: 150px;
+}
+
+.jackieNeedsSpaceR {
+  padding-right: 200px;
 }
 
 .text-primary {
@@ -416,7 +440,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .no-gutter > [class*='col-'] {
   padding-right: 0;
-  padding-left: 0;
+  padding-left: 50px;
 }
 
 .btn-outline {
@@ -454,4 +478,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+
+.holyshitbigborders {
+  margin: 5px;
 }
