@@ -121,8 +121,8 @@ section h2 {
 
 @media (min-width: 992px) {
   #mainNav {
-    border-color: white;
-    background-color: white;
+    border-color: transparent;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     color: fade(white, 70%);
@@ -141,6 +141,7 @@ section h2 {
   #mainNav.navbar-shrink {
     border-color: rgba(40, 50, 113, 0.5);
     background-color: white;
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: rgba(40, 50, 113, 1);
@@ -158,9 +159,6 @@ section h2 {
   }
 }
 
-.logotime {
-  max-height: 300px;
-}
 
 header.masthead {
   position: relative;
@@ -181,7 +179,7 @@ header.masthead .header-content h1 {
 }
 
 header.masthead .device-container {
-  max-width: 1000px;
+  max-width: 2000px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -205,7 +203,7 @@ header.masthead .device-container .screen img {
     font-size: 50px;
   }
   header.masthead .device-container {
-    max-width: 1000px;
+    max-width: 5000px;
   }
 }
 
@@ -259,7 +257,7 @@ section.features .section-heading p {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 750px;
+  max-width: 1000px;
   margin: 25px;
 }
 
@@ -431,7 +429,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .jackieNeedsSpaceL {
-  padding-left: 150px;
+  padding-left: auto;
 }
 
 .jackieNeedsSpaceR {
@@ -486,4 +484,9 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .holyshitbigborders {
   margin: 5px;
+}
+
+.logo-needs-help {
+  max-height: 50px;
+  width: auto;
 }
