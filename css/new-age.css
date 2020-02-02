@@ -406,6 +406,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: url("../img/logo-transparent.png"), linear-gradient(to left, #283271, #3D5BA9);
 }
 
+.darkBack {
+   color: white;
+}
+
 .text-primary {
   color: #283271;
 }
@@ -431,7 +435,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   color: white;
   border: 1px solid;
   border-color: white;
-  background-color: rgba(40, 50, 113, 0.7);
+  background-color: #3D5BA9;
 }
 
 .btn-outline-blueBlue:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
