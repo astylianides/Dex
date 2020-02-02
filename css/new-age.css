@@ -158,6 +158,10 @@ section h2 {
   }
 }
 
+.logotime {
+  max-height: 300px;
+}
+
 header.masthead {
   position: relative;
   width: 100%;
@@ -177,9 +181,9 @@ header.masthead .header-content h1 {
 }
 
 header.masthead .device-container {
-  max-width: 325px;
-  margin-right: 50px;
-  margin-left: auto;
+  max-width: 1000px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 header.masthead .device-container .screen img {
@@ -201,7 +205,7 @@ header.masthead .device-container .screen img {
     font-size: 50px;
   }
   header.masthead .device-container {
-    max-width: 25px;
+    max-width: 1000px;
   }
 }
 
@@ -256,11 +260,11 @@ section.features .section-heading p {
 section.features .device-container,
 section.features .feature-item {
   max-width: 750px;
-  margin: 0 auto;
+  margin: 25px;
 }
 
 section.features .device-container {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 992px) {
